@@ -1,0 +1,1175 @@
+2019-09-30 12:03:20,461 - Starting LoggerTest on USERCHI-7MELU30 with PID 8000 (started by Administrator in E:\project\sell)
+2019-09-30 12:03:20,463 - No active profile set, falling back to default profiles: default
+2019-09-30 12:03:22,279 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 12:03:22,283 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 12:03:22,333 - Finished Spring Data repository scanning in 28ms. Found 0 repository interfaces.
+2019-09-30 12:03:22,371 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 12:03:22,374 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 12:03:22,392 - Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019-09-30 12:03:23,232 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dce798ca] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-30 12:03:23,631 - HikariPool-1 - Starting...
+2019-09-30 12:03:23,639 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-09-30 12:03:24,921 - Unable to determine jdbc url from datasource
+org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta-data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLSyntaxErrorException: Unknown database 'sell'
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:328)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:356)
+	at org.springframework.boot.autoconfigure.orm.jpa.DatabaseLookup.getDatabase(DatabaseLookup.java:73)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaProperties.determineDatabase(JpaProperties.java:142)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration.jpaVendorAdapter(JpaBaseConfiguration.java:113)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$fbbe5b39.CGLIB$jpaVendorAdapter$6(<generated>)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$fbbe5b39$$FastClassBySpringCGLIB$$cf1d6621.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$fbbe5b39.jpaVendorAdapter(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:456)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLSyntaxErrorException: Unknown database 'sell'
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:81)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:319)
+	... 85 common frames omitted
+Caused by: java.sql.SQLSyntaxErrorException: Unknown database 'sell'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:827)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:447)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:198)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:467)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:541)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:157)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78)
+	... 86 common frames omitted
+2019-09-30 12:03:25,004 - HikariPool-1 - Starting...
+2019-09-30 12:03:25,004 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-09-30 12:03:26,154 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-30 12:03:26,371 - HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-30 12:03:26,376 - HHH000206: hibernate.properties not found
+2019-09-30 12:03:28,498 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-30 12:03:29,011 - HikariPool-1 - Starting...
+2019-09-30 12:03:29,012 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-09-30 12:03:30,018 - HHH000342: Could not obtain connection to query metadata : Unknown database 'sell'
+2019-09-30 12:03:30,025 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2019-09-30 12:03:30,038 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-09-30 12:06:19,493 - Starting LoggerTest on USERCHI-7MELU30 with PID 2500 (started by Administrator in E:\project\sell)
+2019-09-30 12:06:19,498 - No active profile set, falling back to default profiles: default
+2019-09-30 12:06:21,535 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 12:06:21,539 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 12:06:21,588 - Finished Spring Data repository scanning in 30ms. Found 0 repository interfaces.
+2019-09-30 12:06:21,620 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 12:06:21,622 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 12:06:21,644 - Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019-09-30 12:06:22,450 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a48ae5b5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-30 12:06:22,865 - HikariPool-1 - Starting...
+2019-09-30 12:06:22,875 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-09-30 12:06:24,181 - Unable to determine jdbc url from datasource
+org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta-data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: The server time zone value '�й���׼ʱ��' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:328)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:356)
+	at org.springframework.boot.autoconfigure.orm.jpa.DatabaseLookup.getDatabase(DatabaseLookup.java:73)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaProperties.determineDatabase(JpaProperties.java:142)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration.jpaVendorAdapter(JpaBaseConfiguration.java:113)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$c361a824.CGLIB$jpaVendorAdapter$5(<generated>)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$c361a824$$FastClassBySpringCGLIB$$93565f93.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$c361a824.jpaVendorAdapter(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:456)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: The server time zone value '�й���׼ʱ��' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:81)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:319)
+	... 85 common frames omitted
+Caused by: java.sql.SQLException: The server time zone value '�й���׼ʱ��' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:76)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:827)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:447)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:198)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:467)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:541)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:157)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78)
+	... 86 common frames omitted
+Caused by: com.mysql.cj.exceptions.InvalidConnectionAttributeException: The server time zone value '�й���׼ʱ��' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:85)
+	at com.mysql.cj.util.TimeUtil.getCanonicalTimezone(TimeUtil.java:132)
+	at com.mysql.cj.protocol.a.NativeProtocol.configureTimezone(NativeProtocol.java:2139)
+	at com.mysql.cj.protocol.a.NativeProtocol.initServerSession(NativeProtocol.java:2163)
+	at com.mysql.cj.jdbc.ConnectionImpl.initializePropsFromServer(ConnectionImpl.java:1301)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:958)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:817)
+	... 99 common frames omitted
+2019-09-30 12:06:24,237 - HikariPool-1 - Starting...
+2019-09-30 12:06:24,238 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-09-30 12:06:25,374 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-30 12:06:25,598 - HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-30 12:06:25,603 - HHH000206: hibernate.properties not found
+2019-09-30 12:06:26,054 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-30 12:06:26,631 - HikariPool-1 - Starting...
+2019-09-30 12:06:26,632 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-09-30 12:06:27,640 - HHH000342: Could not obtain connection to query metadata : The server time zone value '�й���׼ʱ��' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+2019-09-30 12:06:27,663 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2019-09-30 12:06:27,682 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-09-30 12:07:46,527 - Starting LoggerTest on USERCHI-7MELU30 with PID 6492 (started by Administrator in E:\project\sell)
+2019-09-30 12:07:46,530 - No active profile set, falling back to default profiles: default
+2019-09-30 12:07:48,468 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 12:07:48,472 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 12:07:48,516 - Finished Spring Data repository scanning in 26ms. Found 0 repository interfaces.
+2019-09-30 12:07:48,547 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 12:07:48,549 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 12:07:48,571 - Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+2019-09-30 12:07:49,370 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5fed7384] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-30 12:07:49,789 - HikariPool-1 - Starting...
+2019-09-30 12:07:49,799 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-09-30 12:07:51,212 - Unable to determine jdbc url from datasource
+org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta-data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: The server time zone value '�й���׼ʱ��' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:328)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:356)
+	at org.springframework.boot.autoconfigure.orm.jpa.DatabaseLookup.getDatabase(DatabaseLookup.java:73)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaProperties.determineDatabase(JpaProperties.java:142)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration.jpaVendorAdapter(JpaBaseConfiguration.java:113)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$7ec435f3.CGLIB$jpaVendorAdapter$9(<generated>)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$7ec435f3$$FastClassBySpringCGLIB$$5a79a85d.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$7ec435f3.jpaVendorAdapter(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:456)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1105)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLException: The server time zone value '�й���׼ʱ��' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:81)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:319)
+	... 85 common frames omitted
+Caused by: java.sql.SQLException: The server time zone value '�й���׼ʱ��' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:76)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:827)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:447)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:198)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:467)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:541)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:157)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78)
+	... 86 common frames omitted
+Caused by: com.mysql.cj.exceptions.InvalidConnectionAttributeException: The server time zone value '�й���׼ʱ��' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:85)
+	at com.mysql.cj.util.TimeUtil.getCanonicalTimezone(TimeUtil.java:132)
+	at com.mysql.cj.protocol.a.NativeProtocol.configureTimezone(NativeProtocol.java:2139)
+	at com.mysql.cj.protocol.a.NativeProtocol.initServerSession(NativeProtocol.java:2163)
+	at com.mysql.cj.jdbc.ConnectionImpl.initializePropsFromServer(ConnectionImpl.java:1301)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:958)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:817)
+	... 99 common frames omitted
+2019-09-30 12:07:51,259 - HikariPool-1 - Starting...
+2019-09-30 12:07:51,259 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-09-30 12:07:52,383 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-30 12:07:52,544 - HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-30 12:07:52,549 - HHH000206: hibernate.properties not found
+2019-09-30 12:07:52,858 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-30 12:07:53,752 - HikariPool-1 - Starting...
+2019-09-30 12:07:53,752 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-09-30 12:07:54,761 - HHH000342: Could not obtain connection to query metadata : The server time zone value '�й���׼ʱ��' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+2019-09-30 12:07:54,769 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2019-09-30 12:07:54,784 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-09-30 12:08:46,780 - Starting LoggerTest on USERCHI-7MELU30 with PID 6964 (started by Administrator in E:\project\sell)
+2019-09-30 12:08:46,785 - No active profile set, falling back to default profiles: default
+2019-09-30 12:08:49,124 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 12:08:49,128 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 12:08:49,175 - Finished Spring Data repository scanning in 28ms. Found 0 repository interfaces.
+2019-09-30 12:08:49,206 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 12:08:49,209 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 12:08:49,229 - Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019-09-30 12:08:50,036 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a48ae5b5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-30 12:08:50,435 - HikariPool-1 - Starting...
+2019-09-30 12:08:50,443 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-09-30 12:08:50,728 - HikariPool-1 - Start completed.
+2019-09-30 12:08:50,982 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-30 12:08:51,122 - HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-30 12:08:51,125 - HHH000206: hibernate.properties not found
+2019-09-30 12:08:51,436 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-30 12:08:51,871 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-30 12:08:52,263 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-30 12:08:53,609 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-30 12:08:53,717 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-09-30 12:08:55,367 - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-09-30 12:08:55,654 - Started LoggerTest in 10.362 seconds (JVM running for 12.285)
+2019-09-30 12:08:56,205 - info..
+2019-09-30 12:08:56,245 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-30 12:08:56,246 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-09-30 12:08:56,251 - HikariPool-1 - Shutdown initiated...
+2019-09-30 12:08:56,270 - HikariPool-1 - Shutdown completed.
+2019-09-30 12:12:02,636 - Starting ProductCategoryDaoTest on USERCHI-7MELU30 with PID 6132 (started by Administrator in E:\project\sell)
+2019-09-30 12:12:02,640 - No active profile set, falling back to default profiles: default
+2019-09-30 12:12:04,119 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 12:12:04,123 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 12:12:04,443 - Finished Spring Data repository scanning in 299ms. Found 1 repository interfaces.
+2019-09-30 12:12:04,477 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 12:12:04,480 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 12:12:04,516 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.ProductCategoryDao.
+2019-09-30 12:12:04,517 - Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+2019-09-30 12:12:05,472 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d4a7a37f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-30 12:12:05,872 - HikariPool-1 - Starting...
+2019-09-30 12:12:06,164 - HikariPool-1 - Start completed.
+2019-09-30 12:12:06,326 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-30 12:12:06,462 - HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-30 12:12:06,464 - HHH000206: hibernate.properties not found
+2019-09-30 12:12:06,821 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-30 12:12:07,247 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-30 12:12:08,359 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-30 12:12:09,866 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-30 12:12:09,968 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-09-30 12:12:11,255 - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-09-30 12:12:11,511 - Started ProductCategoryDaoTest in 11.804 seconds (JVM running for 15.474)
+2019-09-30 12:12:11,886 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-30 12:12:11,888 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-09-30 12:12:11,892 - HikariPool-1 - Shutdown initiated...
+2019-09-30 12:12:11,919 - HikariPool-1 - Shutdown completed.
+2019-09-30 12:13:18,327 - Starting ProductCategoryDaoTest on USERCHI-7MELU30 with PID 8056 (started by Administrator in E:\project\sell)
+2019-09-30 12:13:18,329 - No active profile set, falling back to default profiles: default
+2019-09-30 12:13:19,953 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 12:13:19,956 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 12:13:20,270 - Finished Spring Data repository scanning in 295ms. Found 1 repository interfaces.
+2019-09-30 12:13:20,301 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 12:13:20,303 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 12:13:20,328 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.ProductCategoryDao.
+2019-09-30 12:13:20,329 - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-09-30 12:13:21,119 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6a2e9ee6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-30 12:13:21,512 - HikariPool-1 - Starting...
+2019-09-30 12:13:21,818 - HikariPool-1 - Start completed.
+2019-09-30 12:13:21,970 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-30 12:13:22,314 - HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-30 12:13:22,318 - HHH000206: hibernate.properties not found
+2019-09-30 12:13:22,726 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-30 12:13:23,653 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-30 12:13:24,811 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-30 12:13:26,808 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-30 12:13:26,900 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-09-30 12:13:29,118 - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-09-30 12:13:29,406 - Started ProductCategoryDaoTest in 12.71 seconds (JVM running for 14.636)
+2019-09-30 12:13:29,815 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-30 12:13:29,818 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-09-30 12:13:29,822 - HikariPool-1 - Shutdown initiated...
+2019-09-30 12:13:29,840 - HikariPool-1 - Shutdown completed.
+2019-09-30 12:28:47,636 - Starting ProductCategoryDaoTest on USERCHI-7MELU30 with PID 7820 (started by Administrator in E:\project\sell)
+2019-09-30 12:28:47,637 - No active profile set, falling back to default profiles: default
+2019-09-30 12:28:49,723 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 12:28:49,726 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 12:28:50,035 - Finished Spring Data repository scanning in 293ms. Found 1 repository interfaces.
+2019-09-30 12:28:50,065 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 12:28:50,068 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 12:28:50,096 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.ProductCategoryDao.
+2019-09-30 12:28:50,097 - Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2019-09-30 12:28:51,092 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fbd497e2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-30 12:28:51,607 - HikariPool-1 - Starting...
+2019-09-30 12:28:51,946 - HikariPool-1 - Start completed.
+2019-09-30 12:28:52,107 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-30 12:28:52,258 - HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-30 12:28:52,261 - HHH000206: hibernate.properties not found
+2019-09-30 12:28:52,641 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-30 12:28:53,182 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-30 12:28:54,196 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-30 12:28:56,769 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-30 12:28:56,881 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-09-30 12:28:58,805 - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-09-30 12:28:59,158 - Started ProductCategoryDaoTest in 12.952 seconds (JVM running for 15.239)
+2019-09-30 12:28:59,642 - HHH000397: Using ASTQueryTranslatorFactory
+2019-09-30 12:29:00,008 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-30 12:29:00,011 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-09-30 12:29:00,019 - HikariPool-1 - Shutdown initiated...
+2019-09-30 12:29:00,039 - HikariPool-1 - Shutdown completed.
+2019-09-30 12:37:59,450 - Starting ProductCategoryDaoTest on USERCHI-7MELU30 with PID 3932 (started by Administrator in E:\project\sell)
+2019-09-30 12:37:59,453 - No active profile set, falling back to default profiles: default
+2019-09-30 12:38:01,666 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 12:38:01,672 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 12:38:02,043 - Finished Spring Data repository scanning in 342ms. Found 1 repository interfaces.
+2019-09-30 12:38:02,081 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 12:38:02,083 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 12:38:02,110 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.ProductCategoryDao.
+2019-09-30 12:38:02,110 - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-09-30 12:38:03,137 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$446de171] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-30 12:38:03,607 - HikariPool-1 - Starting...
+2019-09-30 12:38:03,923 - HikariPool-1 - Start completed.
+2019-09-30 12:38:04,092 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-30 12:38:04,227 - HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-30 12:38:04,230 - HHH000206: hibernate.properties not found
+2019-09-30 12:38:04,550 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-30 12:38:04,993 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-30 12:38:06,064 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-30 12:38:07,876 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-30 12:38:07,986 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-09-30 12:38:09,608 - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-09-30 12:38:09,931 - Started ProductCategoryDaoTest in 11.746 seconds (JVM running for 13.627)
+2019-09-30 12:38:10,355 - SQL Error: 1146, SQLState: 42S02
+2019-09-30 12:38:10,425 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-30 12:38:10,429 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-09-30 12:38:10,433 - HikariPool-1 - Shutdown initiated...
+2019-09-30 12:38:10,460 - HikariPool-1 - Shutdown completed.
+2019-09-30 12:39:53,585 - Starting ProductCategoryDaoTest on USERCHI-7MELU30 with PID 7272 (started by Administrator in E:\project\sell)
+2019-09-30 12:39:53,589 - No active profile set, falling back to default profiles: default
+2019-09-30 12:39:55,610 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 12:39:55,615 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 12:39:55,931 - Finished Spring Data repository scanning in 299ms. Found 1 repository interfaces.
+2019-09-30 12:39:55,985 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 12:39:55,988 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 12:39:56,016 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.ProductCategoryDao.
+2019-09-30 12:39:56,017 - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-09-30 12:39:57,120 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$51990a1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-30 12:39:57,715 - HikariPool-1 - Starting...
+2019-09-30 12:39:58,126 - HikariPool-1 - Start completed.
+2019-09-30 12:39:58,327 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-30 12:39:58,490 - HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-30 12:39:58,495 - HHH000206: hibernate.properties not found
+2019-09-30 12:39:58,943 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-30 12:39:59,481 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-30 12:40:00,508 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-30 12:40:02,189 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-30 12:40:02,309 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-09-30 12:40:03,761 - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-09-30 12:40:04,063 - Started ProductCategoryDaoTest in 12.118 seconds (JVM running for 14.276)
+2019-09-30 12:40:04,497 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-30 12:40:04,499 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-09-30 12:40:04,504 - HikariPool-1 - Shutdown initiated...
+2019-09-30 12:40:04,523 - HikariPool-1 - Shutdown completed.
+2019-09-30 12:40:18,905 - Starting ProductCategoryDaoTest on USERCHI-7MELU30 with PID 992 (started by Administrator in E:\project\sell)
+2019-09-30 12:40:18,906 - No active profile set, falling back to default profiles: default
+2019-09-30 12:40:21,719 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 12:40:21,723 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 12:40:22,027 - Finished Spring Data repository scanning in 284ms. Found 1 repository interfaces.
+2019-09-30 12:40:22,052 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 12:40:22,054 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 12:40:22,075 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.ProductCategoryDao.
+2019-09-30 12:40:22,075 - Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2019-09-30 12:40:22,907 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d17df014] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-30 12:40:23,313 - HikariPool-1 - Starting...
+2019-09-30 12:40:23,591 - HikariPool-1 - Start completed.
+2019-09-30 12:40:23,732 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-30 12:40:23,859 - HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-30 12:40:23,861 - HHH000206: hibernate.properties not found
+2019-09-30 12:40:24,102 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-30 12:40:24,504 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-30 12:40:25,476 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-30 12:40:26,988 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-30 12:40:27,092 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-09-30 12:40:28,426 - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-09-30 12:40:28,748 - Started ProductCategoryDaoTest in 11.289 seconds (JVM running for 13.219)
+2019-09-30 12:40:29,098 - HHH000397: Using ASTQueryTranslatorFactory
+2019-09-30 12:40:29,373 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-30 12:40:29,375 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-09-30 12:40:29,380 - HikariPool-1 - Shutdown initiated...
+2019-09-30 12:40:29,398 - HikariPool-1 - Shutdown completed.
+2019-09-30 12:41:57,172 - Starting ProductCategoryDaoTest on USERCHI-7MELU30 with PID 5484 (started by Administrator in E:\project\sell)
+2019-09-30 12:41:57,174 - No active profile set, falling back to default profiles: default
+2019-09-30 12:41:59,024 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 12:41:59,027 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 12:41:59,273 - Finished Spring Data repository scanning in 230ms. Found 1 repository interfaces.
+2019-09-30 12:41:59,300 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 12:41:59,302 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 12:41:59,320 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.ProductCategoryDao.
+2019-09-30 12:41:59,321 - Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2019-09-30 12:42:00,269 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fbd497e2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-30 12:42:00,989 - HikariPool-1 - Starting...
+2019-09-30 12:42:01,318 - HikariPool-1 - Start completed.
+2019-09-30 12:42:01,472 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-30 12:42:01,598 - HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-30 12:42:01,605 - HHH000206: hibernate.properties not found
+2019-09-30 12:42:01,893 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-30 12:42:02,526 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-30 12:42:03,468 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-30 12:42:05,392 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-30 12:42:05,516 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-09-30 12:42:07,455 - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-09-30 12:42:07,881 - Started ProductCategoryDaoTest in 12.446 seconds (JVM running for 14.627)
+2019-09-30 12:42:08,525 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-30 12:42:08,527 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-09-30 12:42:08,532 - HikariPool-1 - Shutdown initiated...
+2019-09-30 12:42:08,570 - HikariPool-1 - Shutdown completed.
+2019-09-30 12:42:22,114 - Starting ProductCategoryDaoTest on USERCHI-7MELU30 with PID 7360 (started by Administrator in E:\project\sell)
+2019-09-30 12:42:22,116 - No active profile set, falling back to default profiles: default
+2019-09-30 12:42:24,595 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 12:42:24,599 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 12:42:24,829 - Finished Spring Data repository scanning in 214ms. Found 1 repository interfaces.
+2019-09-30 12:42:24,866 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 12:42:24,868 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 12:42:24,890 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.ProductCategoryDao.
+2019-09-30 12:42:24,890 - Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2019-09-30 12:42:25,841 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1e7ae0a4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-30 12:42:26,434 - HikariPool-1 - Starting...
+2019-09-30 12:42:26,762 - HikariPool-1 - Start completed.
+2019-09-30 12:42:26,895 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-30 12:42:27,051 - HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-30 12:42:27,054 - HHH000206: hibernate.properties not found
+2019-09-30 12:42:27,376 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-30 12:42:27,825 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-30 12:42:28,803 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-30 12:42:30,717 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-30 12:42:30,826 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-09-30 12:42:32,422 - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-09-30 12:42:32,811 - Started ProductCategoryDaoTest in 12.177 seconds (JVM running for 14.144)
+2019-09-30 12:42:33,227 - HHH000397: Using ASTQueryTranslatorFactory
+2019-09-30 12:42:33,543 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-30 12:42:33,547 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-09-30 12:42:33,552 - HikariPool-1 - Shutdown initiated...
+2019-09-30 12:42:33,572 - HikariPool-1 - Shutdown completed.
+2019-09-30 12:42:59,321 - Starting ProductCategoryDaoTest on USERCHI-7MELU30 with PID 4220 (started by Administrator in E:\project\sell)
+2019-09-30 12:42:59,323 - No active profile set, falling back to default profiles: default
+2019-09-30 12:43:01,084 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 12:43:01,089 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 12:43:01,416 - Finished Spring Data repository scanning in 306ms. Found 1 repository interfaces.
+2019-09-30 12:43:01,448 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 12:43:01,451 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 12:43:01,477 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.ProductCategoryDao.
+2019-09-30 12:43:01,477 - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-09-30 12:43:02,468 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a9cd40fe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-30 12:43:02,958 - HikariPool-1 - Starting...
+2019-09-30 12:43:03,305 - HikariPool-1 - Start completed.
+2019-09-30 12:43:03,425 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-30 12:43:03,572 - HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-30 12:43:03,574 - HHH000206: hibernate.properties not found
+2019-09-30 12:43:03,882 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-30 12:43:04,336 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-30 12:43:05,217 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-30 12:43:07,052 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-30 12:43:07,174 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-09-30 12:43:08,755 - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-09-30 12:43:09,142 - Started ProductCategoryDaoTest in 11.459 seconds (JVM running for 13.483)
+2019-09-30 12:43:09,688 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-30 12:43:09,692 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-09-30 12:43:09,697 - HikariPool-1 - Shutdown initiated...
+2019-09-30 12:43:09,730 - HikariPool-1 - Shutdown completed.
+2019-09-30 12:47:06,294 - Starting ProductCategoryDaoTest on USERCHI-7MELU30 with PID 2104 (started by Administrator in E:\project\sell)
+2019-09-30 12:47:06,296 - No active profile set, falling back to default profiles: default
+2019-09-30 12:47:08,058 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 12:47:08,064 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 12:47:08,334 - Finished Spring Data repository scanning in 243ms. Found 1 repository interfaces.
+2019-09-30 12:47:08,366 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 12:47:08,368 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 12:47:08,392 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.ProductCategoryDao.
+2019-09-30 12:47:08,393 - Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2019-09-30 12:47:09,367 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6c0724aa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-30 12:47:09,882 - HikariPool-1 - Starting...
+2019-09-30 12:47:10,177 - HikariPool-1 - Start completed.
+2019-09-30 12:47:10,332 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-30 12:47:10,456 - HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-30 12:47:10,459 - HHH000206: hibernate.properties not found
+2019-09-30 12:47:10,780 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-30 12:47:11,315 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-30 12:47:12,218 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-30 12:47:14,281 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-30 12:47:14,414 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-09-30 12:47:16,111 - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-09-30 12:47:16,433 - Started ProductCategoryDaoTest in 11.874 seconds (JVM running for 13.939)
+2019-09-30 12:47:17,047 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-30 12:47:17,062 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-09-30 12:47:17,115 - HikariPool-1 - Shutdown initiated...
+2019-09-30 12:47:17,138 - HikariPool-1 - Shutdown completed.
+2019-09-30 12:58:19,150 - Starting ProductCategoryDaoTest on USERCHI-7MELU30 with PID 5348 (started by Administrator in E:\project\sell)
+2019-09-30 12:58:19,151 - No active profile set, falling back to default profiles: default
+2019-09-30 12:58:21,353 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 12:58:21,357 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 12:58:21,632 - Finished Spring Data repository scanning in 257ms. Found 1 repository interfaces.
+2019-09-30 12:58:21,667 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 12:58:21,671 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 12:58:21,699 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.ProductCategoryDao.
+2019-09-30 12:58:21,700 - Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2019-09-30 12:58:22,763 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$349e3997] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-30 12:58:23,269 - HikariPool-1 - Starting...
+2019-09-30 12:58:23,593 - HikariPool-1 - Start completed.
+2019-09-30 12:58:23,757 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-30 12:58:23,905 - HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-30 12:58:23,909 - HHH000206: hibernate.properties not found
+2019-09-30 12:58:24,248 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-30 12:58:24,735 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-30 12:58:25,315 - HHH000182: No default (no-argument) constructor for class: com.tw.sell.model.ProductCategory (class must be instantiated by Interceptor)
+2019-09-30 12:58:25,663 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-30 12:58:27,611 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-30 12:58:27,739 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-09-30 12:58:29,497 - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-09-30 12:58:29,873 - Started ProductCategoryDaoTest in 12.583 seconds (JVM running for 14.813)
+2019-09-30 12:58:30,380 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-30 12:58:30,383 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-09-30 12:58:30,388 - HikariPool-1 - Shutdown initiated...
+2019-09-30 12:58:30,418 - HikariPool-1 - Shutdown completed.
+2019-09-30 12:59:16,088 - Starting ProductCategoryDaoTest on USERCHI-7MELU30 with PID 5864 (started by Administrator in E:\project\sell)
+2019-09-30 12:59:16,090 - No active profile set, falling back to default profiles: default
+2019-09-30 12:59:18,155 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 12:59:18,160 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 12:59:18,473 - Finished Spring Data repository scanning in 290ms. Found 1 repository interfaces.
+2019-09-30 12:59:18,499 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 12:59:18,501 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 12:59:18,519 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.ProductCategoryDao.
+2019-09-30 12:59:18,519 - Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2019-09-30 12:59:19,474 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cc75329] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-30 12:59:19,998 - HikariPool-1 - Starting...
+2019-09-30 12:59:20,295 - HikariPool-1 - Start completed.
+2019-09-30 12:59:20,439 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-30 12:59:20,572 - HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-30 12:59:20,575 - HHH000206: hibernate.properties not found
+2019-09-30 12:59:20,823 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-30 12:59:21,282 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-30 12:59:21,973 - HHH000182: No default (no-argument) constructor for class: com.tw.sell.model.ProductCategory (class must be instantiated by Interceptor)
+2019-09-30 12:59:22,440 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-30 12:59:24,859 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-30 12:59:24,968 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-09-30 12:59:26,780 - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-09-30 12:59:27,175 - Started ProductCategoryDaoTest in 13.209 seconds (JVM running for 15.509)
+2019-09-30 12:59:27,245 - Began transaction (1) for test context [DefaultTestContext@4c60d6e9 testClass = ProductCategoryDaoTest, testInstance = com.tw.sell.dao.ProductCategoryDaoTest@620f7a39, testMethod = saveTest@ProductCategoryDaoTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@15043a2f testClass = ProductCategoryDaoTest, locations = '{}', classes = '{class com.tw.sell.SellApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@25a65b77, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@14a2f921, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@258e2e41, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1a0dcaa], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@1f0f92f5]; rollback [true]
+2019-09-30 12:59:27,683 - SQL Error: 1062, SQLState: 23000
+2019-09-30 12:59:27,702 - Rolled back transaction for test: [DefaultTestContext@4c60d6e9 testClass = ProductCategoryDaoTest, testInstance = com.tw.sell.dao.ProductCategoryDaoTest@620f7a39, testMethod = saveTest@ProductCategoryDaoTest, testException = org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [category_type]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement, mergedContextConfiguration = [WebMergedContextConfiguration@15043a2f testClass = ProductCategoryDaoTest, locations = '{}', classes = '{class com.tw.sell.SellApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@25a65b77, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@14a2f921, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@258e2e41, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1a0dcaa], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true]]
+2019-09-30 12:59:27,796 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-30 12:59:27,890 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-09-30 12:59:27,913 - HikariPool-1 - Shutdown initiated...
+2019-09-30 12:59:28,062 - HikariPool-1 - Shutdown completed.
+2019-09-30 13:00:32,595 - Starting ProductCategoryDaoTest on USERCHI-7MELU30 with PID 2232 (started by Administrator in E:\project\sell)
+2019-09-30 13:00:32,597 - No active profile set, falling back to default profiles: default
+2019-09-30 13:00:34,997 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 13:00:35,001 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 13:00:35,252 - Finished Spring Data repository scanning in 229ms. Found 1 repository interfaces.
+2019-09-30 13:00:35,284 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 13:00:35,286 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 13:00:35,306 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.ProductCategoryDao.
+2019-09-30 13:00:35,306 - Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2019-09-30 13:00:36,398 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$22fec602] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-30 13:00:37,126 - HikariPool-1 - Starting...
+2019-09-30 13:00:37,518 - HikariPool-1 - Start completed.
+2019-09-30 13:00:37,675 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-30 13:00:37,821 - HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-30 13:00:37,824 - HHH000206: hibernate.properties not found
+2019-09-30 13:00:38,189 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-30 13:00:38,704 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-30 13:00:39,342 - HHH000182: No default (no-argument) constructor for class: com.tw.sell.model.ProductCategory (class must be instantiated by Interceptor)
+2019-09-30 13:00:39,722 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-30 13:00:41,759 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-30 13:00:41,882 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-09-30 13:00:43,554 - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-09-30 13:00:43,920 - Started ProductCategoryDaoTest in 12.791 seconds (JVM running for 14.965)
+2019-09-30 13:00:43,987 - Began transaction (1) for test context [DefaultTestContext@4c60d6e9 testClass = ProductCategoryDaoTest, testInstance = com.tw.sell.dao.ProductCategoryDaoTest@779136bf, testMethod = saveTest@ProductCategoryDaoTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@15043a2f testClass = ProductCategoryDaoTest, locations = '{}', classes = '{class com.tw.sell.SellApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@25a65b77, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@14a2f921, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@258e2e41, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1a0dcaa], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@212c0aff]; rollback [true]
+2019-09-30 13:00:44,397 - Rolled back transaction for test: [DefaultTestContext@4c60d6e9 testClass = ProductCategoryDaoTest, testInstance = com.tw.sell.dao.ProductCategoryDaoTest@779136bf, testMethod = saveTest@ProductCategoryDaoTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@15043a2f testClass = ProductCategoryDaoTest, locations = '{}', classes = '{class com.tw.sell.SellApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@25a65b77, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@14a2f921, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@258e2e41, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1a0dcaa], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true]]
+2019-09-30 13:00:44,425 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-30 13:00:44,431 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-09-30 13:00:44,435 - HikariPool-1 - Shutdown initiated...
+2019-09-30 13:00:44,456 - HikariPool-1 - Shutdown completed.
+2019-09-30 13:08:59,832 - Starting ProductCategoryDaoTest on USERCHI-7MELU30 with PID 5524 (started by Administrator in E:\project\sell)
+2019-09-30 13:08:59,834 - No active profile set, falling back to default profiles: default
+2019-09-30 13:09:03,405 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 13:09:03,412 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 13:09:03,898 - Finished Spring Data repository scanning in 452ms. Found 1 repository interfaces.
+2019-09-30 13:09:03,976 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 13:09:03,981 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 13:09:04,030 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.ProductCategoryDao.
+2019-09-30 13:09:04,031 - Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+2019-09-30 13:09:05,281 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$12ddbc7c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-30 13:09:05,840 - HikariPool-1 - Starting...
+2019-09-30 13:09:06,246 - HikariPool-1 - Start completed.
+2019-09-30 13:09:06,466 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-30 13:09:06,611 - HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-30 13:09:06,616 - HHH000206: hibernate.properties not found
+2019-09-30 13:09:07,161 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-30 13:09:07,624 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-30 13:09:08,573 - HHH000182: No default (no-argument) constructor for class: com.tw.sell.model.ProductCategory (class must be instantiated by Interceptor)
+2019-09-30 13:09:09,007 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-30 13:09:11,797 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-30 13:09:11,948 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-09-30 13:09:14,929 - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-09-30 13:09:15,614 - Started ProductCategoryDaoTest in 17.625 seconds (JVM running for 22.41)
+2019-09-30 13:09:56,594 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50s245ms683µs320ns).
+2019-09-30 13:09:57,047 - HHH000397: Using ASTQueryTranslatorFactory
+2019-09-30 13:10:08,621 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-30 13:10:08,625 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-09-30 13:10:08,630 - HikariPool-1 - Shutdown initiated...
+2019-09-30 13:10:08,647 - HikariPool-1 - Shutdown completed.
+2019-09-30 13:10:48,413 - Starting ProductCategoryDaoTest on USERCHI-7MELU30 with PID 7568 (started by Administrator in E:\project\sell)
+2019-09-30 13:10:48,417 - No active profile set, falling back to default profiles: default
+2019-09-30 13:10:50,737 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 13:10:50,742 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 13:10:51,095 - Finished Spring Data repository scanning in 331ms. Found 1 repository interfaces.
+2019-09-30 13:10:51,135 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 13:10:51,138 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 13:10:51,162 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.ProductCategoryDao.
+2019-09-30 13:10:51,163 - Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2019-09-30 13:10:52,411 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$14bb2744] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-30 13:10:53,076 - HikariPool-1 - Starting...
+2019-09-30 13:10:53,499 - HikariPool-1 - Start completed.
+2019-09-30 13:10:53,694 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-30 13:10:53,871 - HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-30 13:10:53,874 - HHH000206: hibernate.properties not found
+2019-09-30 13:10:54,209 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-30 13:10:54,607 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-30 13:10:55,944 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-30 13:10:58,456 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-30 13:10:58,587 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-09-30 13:11:00,837 - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-09-30 13:11:01,290 - Started ProductCategoryDaoTest in 14.653 seconds (JVM running for 17.366)
+2019-09-30 13:11:01,751 - HHH000397: Using ASTQueryTranslatorFactory
+2019-09-30 13:11:23,228 - Starting ProductCategoryDaoTest on USERCHI-7MELU30 with PID 4368 (started by Administrator in E:\project\sell)
+2019-09-30 13:11:23,231 - No active profile set, falling back to default profiles: default
+2019-09-30 13:11:24,992 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 13:11:24,997 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 13:11:25,326 - Finished Spring Data repository scanning in 309ms. Found 1 repository interfaces.
+2019-09-30 13:11:25,358 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 13:11:25,360 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 13:11:25,387 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.ProductCategoryDao.
+2019-09-30 13:11:25,388 - Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2019-09-30 13:11:26,402 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5e95dc5f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-30 13:11:26,855 - HikariPool-1 - Starting...
+2019-09-30 13:11:27,267 - HikariPool-1 - Start completed.
+2019-09-30 13:11:27,453 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-30 13:11:27,608 - HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-30 13:11:27,611 - HHH000206: hibernate.properties not found
+2019-09-30 13:11:27,989 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-30 13:11:28,338 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-30 13:11:29,614 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-30 13:11:31,722 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-30 13:11:31,831 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-09-30 13:11:33,675 - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-09-30 13:11:34,033 - Started ProductCategoryDaoTest in 12.551 seconds (JVM running for 15.229)
+2019-09-30 13:11:34,527 - HHH000397: Using ASTQueryTranslatorFactory
+2019-09-30 13:11:38,102 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-30 13:11:38,104 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-09-30 13:11:38,109 - HikariPool-1 - Shutdown initiated...
+2019-09-30 13:11:38,130 - HikariPool-1 - Shutdown completed.
+2019-09-30 13:12:04,846 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m11s244ms715µs809ns).
+2019-09-30 13:12:04,903 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-30 13:12:04,905 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-09-30 13:12:04,916 - HikariPool-1 - Shutdown initiated...
+2019-09-30 13:12:04,934 - HikariPool-1 - Shutdown completed.
+2019-09-30 13:12:15,247 - Starting ProductCategoryDaoTest on USERCHI-7MELU30 with PID 7800 (started by Administrator in E:\project\sell)
+2019-09-30 13:12:15,249 - No active profile set, falling back to default profiles: default
+2019-09-30 13:12:17,645 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 13:12:17,662 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 13:12:17,972 - Finished Spring Data repository scanning in 289ms. Found 1 repository interfaces.
+2019-09-30 13:12:18,009 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 13:12:18,012 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 13:12:18,038 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.ProductCategoryDao.
+2019-09-30 13:12:18,039 - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-09-30 13:12:19,108 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1bc0f32f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-30 13:12:19,649 - HikariPool-1 - Starting...
+2019-09-30 13:12:19,938 - HikariPool-1 - Start completed.
+2019-09-30 13:12:20,081 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-30 13:12:20,225 - HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-30 13:12:20,228 - HHH000206: hibernate.properties not found
+2019-09-30 13:12:20,554 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-30 13:12:20,961 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-30 13:12:21,938 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-30 13:12:24,048 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-30 13:12:24,165 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-09-30 13:12:25,929 - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-09-30 13:12:26,247 - Started ProductCategoryDaoTest in 12.425 seconds (JVM running for 14.404)
+2019-09-30 13:12:26,724 - HHH000397: Using ASTQueryTranslatorFactory
+2019-09-30 13:12:27,125 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-30 13:12:27,135 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-09-30 13:12:27,140 - HikariPool-1 - Shutdown initiated...
+2019-09-30 13:12:27,158 - HikariPool-1 - Shutdown completed.
+2019-09-30 13:18:29,124 - Starting ProductCategoryDaoTest on USERCHI-7MELU30 with PID 4944 (started by Administrator in E:\project\sell)
+2019-09-30 13:18:29,127 - No active profile set, falling back to default profiles: default
+2019-09-30 13:18:31,184 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 13:18:31,188 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 13:18:31,448 - Finished Spring Data repository scanning in 242ms. Found 1 repository interfaces.
+2019-09-30 13:18:31,496 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 13:18:31,499 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 13:18:31,537 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.ProductCategoryDao.
+2019-09-30 13:18:31,537 - Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2019-09-30 13:18:32,510 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f3d0e467] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-30 13:18:33,040 - HikariPool-1 - Starting...
+2019-09-30 13:18:33,320 - HikariPool-1 - Start completed.
+2019-09-30 13:18:33,471 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-30 13:18:33,588 - HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-30 13:18:33,591 - HHH000206: hibernate.properties not found
+2019-09-30 13:18:33,850 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-30 13:18:34,254 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-30 13:18:35,246 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-30 13:18:37,342 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-30 13:18:37,476 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-09-30 13:18:39,138 - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-09-30 13:18:39,469 - Started ProductCategoryDaoTest in 11.946 seconds (JVM running for 14.021)
+2019-09-30 13:18:39,902 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-30 13:18:39,905 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-09-30 13:18:39,910 - HikariPool-1 - Shutdown initiated...
+2019-09-30 13:18:39,928 - HikariPool-1 - Shutdown completed.
+2019-09-30 13:19:12,641 - Starting ProductCategoryDaoTest on USERCHI-7MELU30 with PID 1424 (started by Administrator in E:\project\sell)
+2019-09-30 13:19:12,643 - No active profile set, falling back to default profiles: default
+2019-09-30 13:19:14,399 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 13:19:14,403 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 13:19:14,691 - Finished Spring Data repository scanning in 269ms. Found 1 repository interfaces.
+2019-09-30 13:19:14,716 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 13:19:14,718 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 13:19:14,743 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.ProductCategoryDao.
+2019-09-30 13:19:14,744 - Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2019-09-30 13:19:15,707 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$40bfe5db] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-30 13:19:16,330 - HikariPool-1 - Starting...
+2019-09-30 13:19:16,734 - HikariPool-1 - Start completed.
+2019-09-30 13:19:17,068 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-30 13:19:17,314 - HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-30 13:19:17,326 - HHH000206: hibernate.properties not found
+2019-09-30 13:19:17,720 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-30 13:19:18,565 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-30 13:19:20,022 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-30 13:19:22,995 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-30 13:19:23,326 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-09-30 13:19:26,244 - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-09-30 13:19:26,620 - Started ProductCategoryDaoTest in 15.889 seconds (JVM running for 18.02)
+2019-09-30 13:19:27,183 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-30 13:19:27,190 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-09-30 13:19:27,198 - HikariPool-1 - Shutdown initiated...
+2019-09-30 13:19:27,229 - HikariPool-1 - Shutdown completed.
+2019-09-30 13:20:29,619 - Starting ProductCategoryDaoTest on USERCHI-7MELU30 with PID 5020 (started by Administrator in E:\project\sell)
+2019-09-30 13:20:29,625 - No active profile set, falling back to default profiles: default
+2019-09-30 13:20:31,287 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 13:20:31,291 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 13:20:31,602 - Finished Spring Data repository scanning in 291ms. Found 1 repository interfaces.
+2019-09-30 13:20:31,635 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 13:20:31,638 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 13:20:31,667 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.ProductCategoryDao.
+2019-09-30 13:20:31,667 - Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2019-09-30 13:20:32,609 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bc4ffb7f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-30 13:20:33,606 - HikariPool-1 - Starting...
+2019-09-30 13:20:34,273 - HikariPool-1 - Start completed.
+2019-09-30 13:20:35,067 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-30 13:20:35,973 - HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-30 13:20:35,977 - HHH000206: hibernate.properties not found
+2019-09-30 13:20:36,701 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-30 13:20:37,597 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-30 13:20:46,649 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-30 13:20:51,891 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-30 13:20:51,990 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-09-30 13:20:55,882 - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-09-30 13:20:56,252 - Started ProductCategoryDaoTest in 28.268 seconds (JVM running for 30.789)
+2019-09-30 13:20:56,332 - Began transaction (1) for test context [DefaultTestContext@4c60d6e9 testClass = ProductCategoryDaoTest, testInstance = com.tw.sell.dao.ProductCategoryDaoTest@765eb801, testMethod = findAll@ProductCategoryDaoTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@15043a2f testClass = ProductCategoryDaoTest, locations = '{}', classes = '{class com.tw.sell.SellApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@240237d2, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@212bf671, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5906ebcb, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@19d37183], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@1820f274]; rollback [true]
+2019-09-30 13:20:56,793 - Rolled back transaction for test: [DefaultTestContext@4c60d6e9 testClass = ProductCategoryDaoTest, testInstance = com.tw.sell.dao.ProductCategoryDaoTest@765eb801, testMethod = findAll@ProductCategoryDaoTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@15043a2f testClass = ProductCategoryDaoTest, locations = '{}', classes = '{class com.tw.sell.SellApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@240237d2, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@212bf671, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5906ebcb, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@19d37183], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true]]
+2019-09-30 13:20:56,838 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-30 13:20:56,841 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-09-30 13:20:56,846 - HikariPool-1 - Shutdown initiated...
+2019-09-30 13:20:56,875 - HikariPool-1 - Shutdown completed.
+2019-09-30 13:40:39,977 - Starting ProductCategoryServiceImplTest on USERCHI-7MELU30 with PID 8552 (started by Administrator in E:\project\sell)
+2019-09-30 13:40:39,979 - No active profile set, falling back to default profiles: default
+2019-09-30 13:40:41,537 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 13:40:41,541 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 13:40:41,937 - Finished Spring Data repository scanning in 374ms. Found 1 repository interfaces.
+2019-09-30 13:40:41,981 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 13:40:41,983 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 13:40:42,015 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.ProductCategoryDao.
+2019-09-30 13:40:42,015 - Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2019-09-30 13:40:42,931 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a2c63b58] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-30 13:40:43,344 - HikariPool-1 - Starting...
+2019-09-30 13:40:43,708 - HikariPool-1 - Start completed.
+2019-09-30 13:40:43,872 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-30 13:40:44,026 - HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-30 13:40:44,029 - HHH000206: hibernate.properties not found
+2019-09-30 13:40:44,359 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-30 13:40:44,842 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-30 13:40:45,949 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-30 13:40:48,054 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-30 13:40:48,154 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-09-30 13:40:49,512 - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-09-30 13:40:50,114 - Started ProductCategoryServiceImplTest in 11.353 seconds (JVM running for 13.932)
+2019-09-30 13:40:51,090 - HHH000397: Using ASTQueryTranslatorFactory
+2019-09-30 13:40:51,429 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-30 13:40:51,434 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-09-30 13:40:51,439 - HikariPool-1 - Shutdown initiated...
+2019-09-30 13:40:51,455 - HikariPool-1 - Shutdown completed.
+2019-09-30 13:41:11,188 - Starting ProductCategoryServiceImplTest on USERCHI-7MELU30 with PID 5764 (started by Administrator in E:\project\sell)
+2019-09-30 13:41:11,190 - No active profile set, falling back to default profiles: default
+2019-09-30 13:41:12,535 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 13:41:12,538 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 13:41:12,824 - Finished Spring Data repository scanning in 271ms. Found 1 repository interfaces.
+2019-09-30 13:41:12,850 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 13:41:12,852 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 13:41:12,874 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.ProductCategoryDao.
+2019-09-30 13:41:12,875 - Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2019-09-30 13:41:13,716 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$277c948d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-30 13:41:14,128 - HikariPool-1 - Starting...
+2019-09-30 13:41:14,458 - HikariPool-1 - Start completed.
+2019-09-30 13:41:14,610 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-30 13:41:14,747 - HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-30 13:41:14,750 - HHH000206: hibernate.properties not found
+2019-09-30 13:41:15,002 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-30 13:41:15,405 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-30 13:41:16,382 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-30 13:41:18,093 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-30 13:41:18,194 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-09-30 13:41:19,541 - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-09-30 13:41:19,803 - Started ProductCategoryServiceImplTest in 10.341 seconds (JVM running for 12.379)
+2019-09-30 13:41:20,128 - HHH000397: Using ASTQueryTranslatorFactory
+2019-09-30 13:41:20,623 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-30 13:41:20,626 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-09-30 13:41:20,631 - HikariPool-1 - Shutdown initiated...
+2019-09-30 13:41:20,646 - HikariPool-1 - Shutdown completed.
+2019-09-30 13:42:41,574 - Starting ProductCategoryServiceImplTest on USERCHI-7MELU30 with PID 6536 (started by Administrator in E:\project\sell)
+2019-09-30 13:42:41,576 - No active profile set, falling back to default profiles: default
+2019-09-30 13:42:42,890 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 13:42:42,893 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 13:42:43,204 - Finished Spring Data repository scanning in 296ms. Found 1 repository interfaces.
+2019-09-30 13:42:43,238 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 13:42:43,240 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 13:42:43,266 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.ProductCategoryDao.
+2019-09-30 13:42:43,266 - Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2019-09-30 13:42:44,095 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dca1e0e6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-30 13:42:44,517 - HikariPool-1 - Starting...
+2019-09-30 13:42:44,864 - HikariPool-1 - Start completed.
+2019-09-30 13:42:45,023 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-30 13:42:45,142 - HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-30 13:42:45,145 - HHH000206: hibernate.properties not found
+2019-09-30 13:42:45,395 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-30 13:42:45,822 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-30 13:42:46,826 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-30 13:42:48,553 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-30 13:42:48,663 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-09-30 13:42:50,037 - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-09-30 13:42:50,412 - Started ProductCategoryServiceImplTest in 10.433 seconds (JVM running for 12.595)
+2019-09-30 13:42:50,996 - HHH000397: Using ASTQueryTranslatorFactory
+2019-09-30 13:42:51,278 - Began transaction (1) for test context [DefaultTestContext@54422e18 testClass = ProductCategoryServiceImplTest, testInstance = com.tw.sell.service.impl.ProductCategoryServiceImplTest@6d7d0946, testMethod = findOne@ProductCategoryServiceImplTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@117159c0 testClass = ProductCategoryServiceImplTest, locations = '{}', classes = '{class com.tw.sell.SellApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@57d5872c, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@157632c9, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@1b083826, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@14ec4505], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@1cfb7450]; rollback [true]
+2019-09-30 13:42:51,311 - Rolled back transaction for test: [DefaultTestContext@54422e18 testClass = ProductCategoryServiceImplTest, testInstance = com.tw.sell.service.impl.ProductCategoryServiceImplTest@6d7d0946, testMethod = findOne@ProductCategoryServiceImplTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@117159c0 testClass = ProductCategoryServiceImplTest, locations = '{}', classes = '{class com.tw.sell.SellApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@57d5872c, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@157632c9, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@1b083826, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@14ec4505], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true]]
+2019-09-30 13:42:51,465 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-30 13:42:51,469 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-09-30 13:42:51,474 - HikariPool-1 - Shutdown initiated...
+2019-09-30 13:42:51,491 - HikariPool-1 - Shutdown completed.
+2019-09-30 13:43:16,856 - Starting ProductCategoryServiceImplTest on USERCHI-7MELU30 with PID 8500 (started by Administrator in E:\project\sell)
+2019-09-30 13:43:16,860 - No active profile set, falling back to default profiles: default
+2019-09-30 13:43:18,367 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 13:43:18,370 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 13:43:18,661 - Finished Spring Data repository scanning in 274ms. Found 1 repository interfaces.
+2019-09-30 13:43:18,695 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-09-30 13:43:18,697 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-30 13:43:18,720 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.ProductCategoryDao.
+2019-09-30 13:43:18,720 - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-09-30 13:43:19,548 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$40bfe5db] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-30 13:43:19,941 - HikariPool-1 - Starting...
+2019-09-30 13:43:20,247 - HikariPool-1 - Start completed.
+2019-09-30 13:43:20,404 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-09-30 13:43:20,520 - HHH000412: Hibernate Core {5.3.11.Final}
+2019-09-30 13:43:20,523 - HHH000206: hibernate.properties not found
+2019-09-30 13:43:20,770 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-09-30 13:43:21,183 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-09-30 13:43:22,262 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-09-30 13:43:23,928 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-30 13:43:24,026 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-09-30 13:43:25,411 - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-09-30 13:43:25,663 - Started ProductCategoryServiceImplTest in 10.29 seconds (JVM running for 12.34)
+2019-09-30 13:43:25,980 - HHH000397: Using ASTQueryTranslatorFactory
+2019-09-30 13:43:26,241 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-30 13:43:26,244 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-09-30 13:43:26,249 - HikariPool-1 - Shutdown initiated...
+2019-09-30 13:43:26,266 - HikariPool-1 - Shutdown completed.
