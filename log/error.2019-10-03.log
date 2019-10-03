@@ -1,0 +1,6 @@
+2019-10-03 16:21:56,610 - Column 'order_status' cannot be null
+2019-10-03 16:21:56,613 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2019-10-03 16:24:05,834 - Column 'order_status' cannot be null
+2019-10-03 16:24:05,837 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2019-10-03 16:27:01,041 - Column 'order_status' cannot be null
+2019-10-03 16:27:01,043 - HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]

@@ -11,6 +11,9 @@ import javax.persistence.Id;
 @Entity
 @DynamicUpdate
 @Data
+/**
+ * 商品目录
+ */
 public class ProductCategory {
     /** 类目id */
     @Id

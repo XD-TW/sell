@@ -2,15 +2,14 @@ package com.tw.sell.service.impl;
 
 import com.tw.sell.dao.ProductCategoryDao;
 import com.tw.sell.model.ProductCategory;
-import com.tw.sell.service.ProductCategoryService;
+import com.tw.sell.service.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import javax.transaction.Transactional;
 import java.util.List;
 
 @Service
-public class ProductCategoryServiceImpl implements ProductCategoryService {
+public class CategoryServiceImpl implements CategoryService {
 
     @Autowired
     private ProductCategoryDao dao;

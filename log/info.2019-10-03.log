@@ -1,0 +1,284 @@
+2019-10-03 16:14:57,416 - Starting OrderServiceImplTest on USERCHI-7MELU30 with PID 10108 (started by Administrator in E:\project\sell)
+2019-10-03 16:14:57,418 - No active profile set, falling back to default profiles: default
+2019-10-03 16:14:59,081 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-03 16:14:59,087 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-03 16:14:59,485 - Finished Spring Data repository scanning in 380ms. Found 4 repository interfaces.
+2019-10-03 16:14:59,521 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-03 16:14:59,524 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-03 16:14:59,563 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.OrderDetailDao.
+2019-10-03 16:14:59,566 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.OrderMasterDao.
+2019-10-03 16:14:59,567 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.ProductCategoryDao.
+2019-10-03 16:14:59,568 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.ProductInfoDao.
+2019-10-03 16:14:59,569 - Finished Spring Data repository scanning in 24ms. Found 0 repository interfaces.
+2019-10-03 16:15:00,612 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9bc281b3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-03 16:15:01,053 - HikariPool-1 - Starting...
+2019-10-03 16:15:01,437 - HikariPool-1 - Start completed.
+2019-10-03 16:15:01,613 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-03 16:15:01,791 - HHH000412: Hibernate Core {5.3.11.Final}
+2019-10-03 16:15:01,795 - HHH000206: hibernate.properties not found
+2019-10-03 16:15:05,305 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-03 16:15:08,891 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-03 16:15:10,281 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-03 16:15:12,451 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-03 16:15:12,551 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-03 16:15:14,124 - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-10-03 16:15:14,436 - Started OrderServiceImplTest in 18.551 seconds (JVM running for 21.381)
+2019-10-03 16:15:15,590 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-03 16:15:15,606 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-03 16:15:15,613 - HikariPool-1 - Shutdown initiated...
+2019-10-03 16:15:15,646 - HikariPool-1 - Shutdown completed.
+2019-10-03 16:16:28,053 - Starting OrderServiceImplTest on USERCHI-7MELU30 with PID 9544 (started by Administrator in E:\project\sell)
+2019-10-03 16:16:28,057 - No active profile set, falling back to default profiles: default
+2019-10-03 16:16:29,692 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-03 16:16:29,696 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-03 16:16:30,064 - Finished Spring Data repository scanning in 351ms. Found 4 repository interfaces.
+2019-10-03 16:16:30,098 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-03 16:16:30,101 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-03 16:16:30,140 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.OrderDetailDao.
+2019-10-03 16:16:30,143 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.OrderMasterDao.
+2019-10-03 16:16:30,144 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.ProductCategoryDao.
+2019-10-03 16:16:30,145 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.ProductInfoDao.
+2019-10-03 16:16:30,145 - Finished Spring Data repository scanning in 28ms. Found 0 repository interfaces.
+2019-10-03 16:16:31,023 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6906433d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-03 16:16:31,466 - HikariPool-1 - Starting...
+2019-10-03 16:16:31,827 - HikariPool-1 - Start completed.
+2019-10-03 16:16:32,015 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-03 16:16:32,157 - HHH000412: Hibernate Core {5.3.11.Final}
+2019-10-03 16:16:32,161 - HHH000206: hibernate.properties not found
+2019-10-03 16:16:32,473 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-03 16:16:32,951 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-03 16:16:34,493 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-03 16:16:36,890 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-03 16:16:37,015 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-03 16:16:39,434 - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-10-03 16:16:39,754 - Started OrderServiceImplTest in 13.286 seconds (JVM running for 15.672)
+2019-10-03 16:16:40,377 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-03 16:16:40,380 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-03 16:16:40,384 - HikariPool-1 - Shutdown initiated...
+2019-10-03 16:16:40,403 - HikariPool-1 - Shutdown completed.
+2019-10-03 16:17:19,650 - Starting OrderServiceImplTest on USERCHI-7MELU30 with PID 10020 (started by Administrator in E:\project\sell)
+2019-10-03 16:17:19,653 - No active profile set, falling back to default profiles: default
+2019-10-03 16:17:21,195 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-03 16:17:21,199 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-03 16:17:21,597 - Finished Spring Data repository scanning in 380ms. Found 4 repository interfaces.
+2019-10-03 16:17:21,626 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-03 16:17:21,629 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-03 16:17:21,663 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.OrderDetailDao.
+2019-10-03 16:17:21,665 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.OrderMasterDao.
+2019-10-03 16:17:21,666 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.ProductCategoryDao.
+2019-10-03 16:17:21,667 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.ProductInfoDao.
+2019-10-03 16:17:21,668 - Finished Spring Data repository scanning in 26ms. Found 0 repository interfaces.
+2019-10-03 16:17:22,717 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1e23f558] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-03 16:17:23,240 - HikariPool-1 - Starting...
+2019-10-03 16:17:23,615 - HikariPool-1 - Start completed.
+2019-10-03 16:17:23,835 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-03 16:17:23,993 - HHH000412: Hibernate Core {5.3.11.Final}
+2019-10-03 16:17:23,997 - HHH000206: hibernate.properties not found
+2019-10-03 16:17:24,391 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-03 16:17:24,746 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-03 16:17:26,285 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-03 16:17:28,780 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-03 16:17:28,900 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-03 16:17:30,730 - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-10-03 16:17:31,097 - Started OrderServiceImplTest in 13.151 seconds (JVM running for 15.917)
+2019-10-03 16:19:08,156 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-03 16:19:08,160 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-03 16:19:08,166 - HikariPool-1 - Shutdown initiated...
+2019-10-03 16:19:08,189 - HikariPool-1 - Shutdown completed.
+2019-10-03 16:19:15,046 - Starting OrderServiceImplTest on USERCHI-7MELU30 with PID 9908 (started by Administrator in E:\project\sell)
+2019-10-03 16:19:15,056 - No active profile set, falling back to default profiles: default
+2019-10-03 16:19:17,262 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-03 16:19:17,266 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-03 16:19:17,629 - Finished Spring Data repository scanning in 338ms. Found 4 repository interfaces.
+2019-10-03 16:19:17,665 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-03 16:19:17,669 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-03 16:19:17,710 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.OrderDetailDao.
+2019-10-03 16:19:17,714 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.OrderMasterDao.
+2019-10-03 16:19:17,716 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.ProductCategoryDao.
+2019-10-03 16:19:17,717 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.ProductInfoDao.
+2019-10-03 16:19:17,718 - Finished Spring Data repository scanning in 32ms. Found 0 repository interfaces.
+2019-10-03 16:19:18,950 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fe7e98a2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-03 16:19:19,602 - HikariPool-1 - Starting...
+2019-10-03 16:19:19,979 - HikariPool-1 - Start completed.
+2019-10-03 16:19:20,190 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-03 16:19:20,398 - HHH000412: Hibernate Core {5.3.11.Final}
+2019-10-03 16:19:20,404 - HHH000206: hibernate.properties not found
+2019-10-03 16:19:20,827 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-03 16:19:21,193 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-03 16:19:22,731 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-03 16:19:25,029 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-03 16:19:25,188 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-03 16:19:26,812 - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-10-03 16:19:27,166 - Started OrderServiceImplTest in 13.976 seconds (JVM running for 17.763)
+2019-10-03 16:21:09,938 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-03 16:21:09,946 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-03 16:21:09,952 - HikariPool-1 - Shutdown initiated...
+2019-10-03 16:21:09,976 - HikariPool-1 - Shutdown completed.
+2019-10-03 16:21:46,310 - Starting OrderServiceImplTest on USERCHI-7MELU30 with PID 11256 (started by Administrator in E:\project\sell)
+2019-10-03 16:21:46,314 - No active profile set, falling back to default profiles: default
+2019-10-03 16:21:48,204 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-03 16:21:48,207 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-03 16:21:48,518 - Finished Spring Data repository scanning in 300ms. Found 4 repository interfaces.
+2019-10-03 16:21:48,544 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-03 16:21:48,547 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-03 16:21:48,576 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.OrderDetailDao.
+2019-10-03 16:21:48,579 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.OrderMasterDao.
+2019-10-03 16:21:48,581 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.ProductCategoryDao.
+2019-10-03 16:21:48,582 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.ProductInfoDao.
+2019-10-03 16:21:48,583 - Finished Spring Data repository scanning in 25ms. Found 0 repository interfaces.
+2019-10-03 16:21:49,463 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$79fa716f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-03 16:21:49,876 - HikariPool-1 - Starting...
+2019-10-03 16:21:50,188 - HikariPool-1 - Start completed.
+2019-10-03 16:21:50,370 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-03 16:21:50,519 - HHH000412: Hibernate Core {5.3.11.Final}
+2019-10-03 16:21:50,522 - HHH000206: hibernate.properties not found
+2019-10-03 16:21:50,796 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-03 16:21:51,227 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-03 16:21:52,409 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-03 16:21:54,393 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-03 16:21:54,486 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-03 16:21:55,838 - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-10-03 16:21:56,123 - Started OrderServiceImplTest in 11.681 seconds (JVM running for 13.934)
+2019-10-03 16:21:56,610 - SQL Error: 1048, SQLState: 23000
+2019-10-03 16:21:56,667 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-03 16:21:56,670 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-03 16:21:56,675 - HikariPool-1 - Shutdown initiated...
+2019-10-03 16:21:56,692 - HikariPool-1 - Shutdown completed.
+2019-10-03 16:23:53,689 - Starting OrderServiceImplTest on USERCHI-7MELU30 with PID 11240 (started by Administrator in E:\project\sell)
+2019-10-03 16:23:53,692 - No active profile set, falling back to default profiles: default
+2019-10-03 16:23:55,991 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-03 16:23:55,997 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-03 16:23:56,345 - Finished Spring Data repository scanning in 335ms. Found 4 repository interfaces.
+2019-10-03 16:23:56,375 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-03 16:23:56,377 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-03 16:23:56,418 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.OrderDetailDao.
+2019-10-03 16:23:56,421 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.OrderMasterDao.
+2019-10-03 16:23:56,423 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.ProductCategoryDao.
+2019-10-03 16:23:56,424 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.ProductInfoDao.
+2019-10-03 16:23:56,425 - Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces.
+2019-10-03 16:23:57,379 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$84a741c8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-03 16:23:57,857 - HikariPool-1 - Starting...
+2019-10-03 16:23:58,238 - HikariPool-1 - Start completed.
+2019-10-03 16:23:58,535 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-03 16:23:58,712 - HHH000412: Hibernate Core {5.3.11.Final}
+2019-10-03 16:23:58,717 - HHH000206: hibernate.properties not found
+2019-10-03 16:23:59,032 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-03 16:23:59,504 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-03 16:24:00,880 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-03 16:24:03,157 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-03 16:24:03,255 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-03 16:24:04,796 - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-10-03 16:24:05,091 - Started OrderServiceImplTest in 13.185 seconds (JVM running for 15.573)
+2019-10-03 16:24:05,834 - SQL Error: 1048, SQLState: 23000
+2019-10-03 16:24:05,921 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-03 16:24:05,924 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-03 16:24:05,929 - HikariPool-1 - Shutdown initiated...
+2019-10-03 16:24:05,948 - HikariPool-1 - Shutdown completed.
+2019-10-03 16:26:50,994 - Starting OrderServiceImplTest on USERCHI-7MELU30 with PID 8124 (started by Administrator in E:\project\sell)
+2019-10-03 16:26:50,997 - No active profile set, falling back to default profiles: default
+2019-10-03 16:26:52,503 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-03 16:26:52,507 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-03 16:26:52,836 - Finished Spring Data repository scanning in 314ms. Found 4 repository interfaces.
+2019-10-03 16:26:52,865 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-03 16:26:52,878 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-03 16:26:52,910 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.OrderDetailDao.
+2019-10-03 16:26:52,912 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.OrderMasterDao.
+2019-10-03 16:26:52,914 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.ProductCategoryDao.
+2019-10-03 16:26:52,915 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.ProductInfoDao.
+2019-10-03 16:26:52,915 - Finished Spring Data repository scanning in 23ms. Found 0 repository interfaces.
+2019-10-03 16:26:53,753 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b44ed174] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-03 16:26:54,186 - HikariPool-1 - Starting...
+2019-10-03 16:26:54,514 - HikariPool-1 - Start completed.
+2019-10-03 16:26:54,692 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-03 16:26:54,828 - HHH000412: Hibernate Core {5.3.11.Final}
+2019-10-03 16:26:54,831 - HHH000206: hibernate.properties not found
+2019-10-03 16:26:55,123 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-03 16:26:55,585 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-03 16:26:56,775 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-03 16:26:58,766 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-03 16:26:58,855 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-03 16:27:00,292 - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-10-03 16:27:00,546 - Started OrderServiceImplTest in 11.36 seconds (JVM running for 13.813)
+2019-10-03 16:27:01,041 - SQL Error: 1048, SQLState: 23000
+2019-10-03 16:27:01,107 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-03 16:27:01,116 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-03 16:27:01,123 - HikariPool-1 - Shutdown initiated...
+2019-10-03 16:27:01,143 - HikariPool-1 - Shutdown completed.
+2019-10-03 16:28:28,713 - Starting OrderServiceImplTest on USERCHI-7MELU30 with PID 6104 (started by Administrator in E:\project\sell)
+2019-10-03 16:28:28,717 - No active profile set, falling back to default profiles: default
+2019-10-03 16:28:31,098 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-03 16:28:31,103 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-03 16:28:31,444 - Finished Spring Data repository scanning in 323ms. Found 4 repository interfaces.
+2019-10-03 16:28:31,485 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-03 16:28:31,487 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-03 16:28:31,527 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.OrderDetailDao.
+2019-10-03 16:28:31,530 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.OrderMasterDao.
+2019-10-03 16:28:31,532 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.ProductCategoryDao.
+2019-10-03 16:28:31,534 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.ProductInfoDao.
+2019-10-03 16:28:31,534 - Finished Spring Data repository scanning in 30ms. Found 0 repository interfaces.
+2019-10-03 16:28:32,544 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8a56af48] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-03 16:28:33,066 - HikariPool-1 - Starting...
+2019-10-03 16:28:33,447 - HikariPool-1 - Start completed.
+2019-10-03 16:28:33,628 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-03 16:28:33,792 - HHH000412: Hibernate Core {5.3.11.Final}
+2019-10-03 16:28:33,797 - HHH000206: hibernate.properties not found
+2019-10-03 16:28:34,123 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-03 16:28:34,627 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-03 16:28:35,800 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-03 16:28:37,808 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-03 16:28:37,913 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-03 16:28:39,290 - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-10-03 16:28:39,580 - Started OrderServiceImplTest in 12.302 seconds (JVM running for 14.256)
+2019-10-03 16:28:40,089 - 【创建订单】 result:
+2019-10-03 16:28:40,123 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-03 16:28:40,126 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-03 16:28:40,132 - HikariPool-1 - Shutdown initiated...
+2019-10-03 16:28:40,153 - HikariPool-1 - Shutdown completed.
+2019-10-03 16:32:27,470 - Starting OrderServiceImplTest on USERCHI-7MELU30 with PID 5936 (started by Administrator in E:\project\sell)
+2019-10-03 16:32:27,474 - No active profile set, falling back to default profiles: default
+2019-10-03 16:32:29,809 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-03 16:32:29,814 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-03 16:32:30,170 - Finished Spring Data repository scanning in 338ms. Found 4 repository interfaces.
+2019-10-03 16:32:30,197 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-10-03 16:32:30,199 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-03 16:32:30,233 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.OrderDetailDao.
+2019-10-03 16:32:30,237 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.OrderMasterDao.
+2019-10-03 16:32:30,238 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.ProductCategoryDao.
+2019-10-03 16:32:30,239 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.tw.sell.dao.ProductInfoDao.
+2019-10-03 16:32:30,239 - Finished Spring Data repository scanning in 28ms. Found 0 repository interfaces.
+2019-10-03 16:32:31,092 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$140ab030] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-03 16:32:31,509 - HikariPool-1 - Starting...
+2019-10-03 16:32:31,856 - HikariPool-1 - Start completed.
+2019-10-03 16:32:32,033 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-03 16:32:32,155 - HHH000412: Hibernate Core {5.3.11.Final}
+2019-10-03 16:32:32,158 - HHH000206: hibernate.properties not found
+2019-10-03 16:32:32,437 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-03 16:32:32,883 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-10-03 16:32:34,184 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-03 16:32:36,172 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-03 16:32:36,270 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-03 16:32:37,682 - Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-10-03 16:32:37,968 - Started OrderServiceImplTest in 11.863 seconds (JVM running for 13.902)
+2019-10-03 16:32:38,429 - 【创建订单】 result:
+2019-10-03 16:32:38,461 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-03 16:32:38,464 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-03 16:32:38,467 - HikariPool-1 - Shutdown initiated...
+2019-10-03 16:32:38,483 - HikariPool-1 - Shutdown completed.

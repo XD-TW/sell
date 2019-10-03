@@ -4,7 +4,7 @@ import com.tw.sell.model.ProductCategory;
 
 import java.util.List;
 
-public interface ProductCategoryService {
+public interface CategoryService {
 
     ProductCategory findOne(Integer categoryId);
 
